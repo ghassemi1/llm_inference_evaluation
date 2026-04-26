@@ -24,8 +24,8 @@ python -m pip install -r requirements.txt
 Create/edit `.env` (a template is included in this repo) and set at least:
 
 ```env
-OPENAI_BASE_URL=http://8867-173-34-61-14.ngrok-free.app/v1
-OPENAI_API_KEY=dummy123
+OPENAI_BASE_URL=http://XXXXXX/v1
+OPENAI_API_KEY=XXXX
 OPENAI_MODEL=qwen2.5-3b
 ```
 
@@ -33,7 +33,7 @@ Optional (recommended for `concurrency.py`) — vLLM Prometheus metrics:
 
 ```env
 # Usually the same host/port as OPENAI_BASE_URL, but without /v1
-VLLM_METRICS_URL=http://8867-173-34-61-14.ngrok-free.app/metrics
+VLLM_METRICS_URL=http://XXXXXXXXX/metrics
 ```
 
 All scripts call `dotenv.load_dotenv()` and then use environment variables as defaults.
