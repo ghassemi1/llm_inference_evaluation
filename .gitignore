@@ -1,0 +1,14 @@
+.env
+*.json
+*.csv
+
+# Python virtual environments
+first/
+.venv/
+venv/
+env/
+data/
+
+# Python cache
+__pycache__/
+*.pyc
