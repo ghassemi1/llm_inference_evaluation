@@ -9,6 +9,8 @@ venv/
 env/
 data/*
 !data/README.md
+test*
+resume*
 
 # Python cache
 __pycache__/
